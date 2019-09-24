@@ -1,4 +1,4 @@
-            var geolocator = new Geolocator() { DesiredAccuracyInMeters = 5 };
+            var geolocator = new Windows.Devices.Geolocation.Geolocator() { DesiredAccuracyInMeters = 5 };
             var pos = await geolocator.GetGeopositionAsync();
             LongBlock.Text = $"{pos.Coordinate.Point.Position.Longitude:#.00}";
             LatBlock.Text = $"{pos.Coordinate.Point.Position.Latitude:#.00}";

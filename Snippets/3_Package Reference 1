@@ -1,0 +1,1 @@
+dotnet add package Microsoft.Windows.SDK.Contracts -v 10.0.18362.2002-preview

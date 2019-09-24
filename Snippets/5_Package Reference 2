@@ -1,0 +1,1 @@
+dotnet add package  Microsoft.Toolkit.Wpf.UI.Controls -v 6.0.0-preview7.1
