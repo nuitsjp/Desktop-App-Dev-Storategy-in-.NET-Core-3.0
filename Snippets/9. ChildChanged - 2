@@ -1,0 +1,20 @@
+            if (sender is WindowsXamlHost windowsXamlHost &&
+                windowsXamlHost.Child is Windows.UI.Xaml.Controls.TextBox textBox)
+            {
+                textBox.FontSize = 24;
+                var executeCount = 0;
+                Task.Run(() =>
+                {
+                    while (true)
+                    {
+                        executeCount++;
+                        Dispatcher.BeginInvoke((Action)(() => {
+                            textBox.Text =
+                                string.Join(string.Empty,
+                                    Enumerable.Range(0, 20).Select(i => i % 5 == executeCount % 5 ? "🍣" : "＞"));
+                            WpfTextBox.Text = textBox.Text;
+                        }));
+                        Thread.Sleep(TimeSpan.FromSeconds(0.5));
+                    }
+                });
+            }

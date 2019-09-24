@@ -1,0 +1,8 @@
+            if (sender is WindowsXamlHost windowsXamlHost &&
+                windowsXamlHost.Child is Windows.UI.Xaml.Controls.TextBox textBox)
+            {
+                textBox.FontSize = 24;
+                textBox.Text = ".NET Core + Win10 + (WPF || WinForms) == ❤ 🐱‍🐉";
+                WpfTextBox.Text = textBox.Text;
+            }
+

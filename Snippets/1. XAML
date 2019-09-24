@@ -1,0 +1,19 @@
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="48"/>
+            <RowDefinition Height="48"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0">
+            <TextBlock Text="Longitude: " FontSize="18" Margin="10"/>
+            <TextBlock Text="Latitude: " FontSize="18" Margin="10"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock x:Name="LongBlock" FontSize="18" Margin="10"/>
+            <TextBlock x:Name="LatBlock" FontSize="18" Margin="10"/>
+        </StackPanel>
+		<Button Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Content="Find Me!" FontSize="18" Margin="5" Click="Button_Click"/>

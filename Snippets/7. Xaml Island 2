@@ -1,0 +1,2 @@
+        <xamlHost:WindowsXamlHost InitialTypeName="Windows.UI.Xaml.Controls.TextBox" ChildChanged="WindowsXamlHost_ChildChanged" Grid.Column="2" Grid.Row="1" />
+        <TextBox x:Name="WpfTextBox" FontSize="24"  Grid.Column="2" Grid.Row="2" />

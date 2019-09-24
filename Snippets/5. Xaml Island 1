@@ -1,0 +1,1 @@
+<controls:MapControl TrafficFlowVisible="True" x:Name="TheMap" Grid.Column="2" />
