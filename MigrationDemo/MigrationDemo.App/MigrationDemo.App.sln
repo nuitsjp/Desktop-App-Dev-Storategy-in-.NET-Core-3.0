@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationDemo.App", "MigrationDemo.App\MigrationDemo.App.csproj", "{F4B4652F-6A8F-4D5D-A827-5DEDEFCECD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationDemo.Repository", "MigrationDemo.Repository\MigrationDemo.Repository.csproj", "{F5166BB1-92F5-450F-BBAF-A711127820EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4B4652F-6A8F-4D5D-A827-5DEDEFCECD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B4652F-6A8F-4D5D-A827-5DEDEFCECD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B4652F-6A8F-4D5D-A827-5DEDEFCECD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B4652F-6A8F-4D5D-A827-5DEDEFCECD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5166BB1-92F5-450F-BBAF-A711127820EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5166BB1-92F5-450F-BBAF-A711127820EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5166BB1-92F5-450F-BBAF-A711127820EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5166BB1-92F5-450F-BBAF-A711127820EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52FF4B84-976C-4554-9A29-1DF8C5FC407D}
+	EndGlobalSection
+EndGlobal
