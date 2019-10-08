@@ -1,3 +1,5 @@
+
+```cmd
 dotnet new sln
 mkdir ModernWpfDemo
 cd ModernWpfDemo
@@ -20,3 +22,4 @@ https://www.hanselman.com/blog/MakingATinyNETCore30EntirelySelfcontainedSingleEx
 
 
 https://github.com/dotnet/designs/blob/master/accepted/single-file/design.md#user-experience
+```
